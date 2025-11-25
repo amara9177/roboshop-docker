@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS cities;
 use cities;
 DROP TABLE IF EXISTS `cities`;
 CREATE TABLE   `cities`(
-    `uuid` init(11) NOT NULL AUTO_INCRIMENT,
+    `uuid` int(11) NOT NULL AUTO_INCREMENT,
     `country_code` varchar(2) DEFAULT NULL,
     `city` varchar(100) DEFAULT NULL,
     `name` varchar(100) DEFAULT NULL,
